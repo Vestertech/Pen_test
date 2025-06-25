@@ -16,23 +16,7 @@ In partial fufilment for my course of work in Mohawk college; Secure software de
 
 ## Multi-Factor Authentication
 
-[Multi-factor authentication (MFA)] is by far the best defense against the majority of password-related attacks, including credential stuffing and password spraying. It should be implemented wherever possible. Historically, depending on the audience of the application, it may not have been practical or feasible to enforce the use of MFA, however with modern browsers and mobile devices now supporting FIDO2 Passkeys and other forms of MFA, it is attainable for most use cases RE- Passkey is the future because it requires physical asset secuirty..
-
-Multi-factor authentication can be combined with other techniques to require the 2nd factor only in specific circumstances where there is reason to suspect that the login attempt may not be legitimate, such as a login from:
-
-- A new browser/device or IP address.
-- An unusual country or location.
-- Specific countries that are considered untrusted or typically do not contain users of a service.
-- An IP address that appears on known denylists or is associated with anonymization services, such as proxy or VPN services.
-- An IP address that has tried to login to multiple accounts.
-- A login attempt that appears to be scripted or from a bot rather than a human (i.e. large login volume sourced from a single IP or subnet).
-
-Or an organization may choose to require MFA in the form of a "step-up" authentication for the above scenarios during a session combined with a request for a high risk activity such as:
-
-- Large currency transactions
-- Privileged or Administrative configuration changes
-
-Additionally, for enterprise applications, known trusted IP ranges could be added to an allowlist so that MFA is not required when users connect from these ranges.
+[Multi-factor authentication (MFA)] Multi-factor authentication (MFA) is the best defense against password-related attacks, including credential stuffing and password spraying. With modern browsers and mobile devices supporting FIDO2 Passkeys, it is attainable for most use cases. MFA can be combined with other techniques to require the second factor only in specific circumstances, such as a new browser/device or IP address, unusual country or location, untrusted countries, known denylists or anonymization services, multiple account logins, or scripted login attempts. Organizations can also require MFA as a "step-up" authentication during high-risk activities.
 
 ## Alternative Defenses
 
